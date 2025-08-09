@@ -9,6 +9,7 @@ yarn-error.log*
 lerna-debug.log*
 pnpm-debug.log*
 .pnpm-debug.log*
+/.pnp
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -44,6 +45,7 @@ bower_components
 .lock-wscript
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
+build
 build/Release
 
 # IDEs and editors
@@ -79,6 +81,7 @@ yarn-error.log*
 # Dependency directories
 node_modules/
 jspm_packages/
+package-lock.json
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -203,6 +206,7 @@ vite.config.ts.timestamp-*
 
 dist-ssr
 *.local
+*.pem
 
 # Editor directories and files
 *.suo
@@ -210,3 +214,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# vercel
+.vercel
