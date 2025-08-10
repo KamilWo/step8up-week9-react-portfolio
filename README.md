@@ -1,79 +1,102 @@
-# step8up-week9-react-portfolio
+# 🚀 React Portfolio Website
 
-A modern, responsive portfolio built with React to showcase projects, skills, and experience. Features interactive UI
-components, smooth navigation, and easy customization.
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-## React + TypeScript + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌐 Website public URL
 
-Currently, two official plugins are available:
+Vercel.app
+URL: [https://step8up-week9-react-portfolio.vercel.app/](https://step8up-week9-react-portfolio.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react)
-  uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc)
-  uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📝 Project Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+This project is a modern, responsive single-page **React portfolio website**. It is designed to showcase projects,
+skills, and contact information with a clean, modern themed user interface. The site features a modular component
+architecture and a filterable project gallery, all styled with **Tailwind CSS**.
 
-```js
-export default tseslint.config([
-    globalIgnores(['dist']),
-    {
-        files: ['**/*.{ts,tsx}'],
-        extends: [
-            // Other configs...
+-----
 
-            // Remove tseslint.configs.recommended and replace with this
-            ...tseslint.configs.recommendedTypeChecked,
-            // Alternatively, use this for stricter rules
-            ...tseslint.configs.strictTypeChecked,
-            // Optionally, add this for stylistic rules
-            ...tseslint.configs.stylisticTypeChecked,
+## ✨ Key Features
 
-            // Other configs...
-        ],
-        languageOptions: {
-            parserOptions: {
-                project: ['./tsconfig.node.json', './tsconfig.app.json'],
-                tsconfigRootDir: import.meta.dirname,
-            },
-            // other options...
-        },
-    },
-])
+* **Responsive Design:** The layout is fully responsive and optimised for a seamless experience on both desktop and
+  mobile devices, thanks to **Tailwind CSS**.
+
+* **Modular Components:** Built with reusable React components such as `Header`, `Footer`, `Button`, and a
+  `PortfolioCarousel` to ensure maintainability and scalability.
+
+* **Dynamic Navigation:** A simple, state-based navigation system allows users to switch between the main hero page and
+  the projects page without reloading.
+
+* **Filterable Projects:** The projects page includes a feature to filter projects by category (e.g., 'Web
+  Development', 'Full-Stack').
+
+* **Custom Theming:** Utilises a custom theme with a vibrant cyan accent for a professional and modern look.
+
+-----
+
+## 🛠️ Technologies Used
+
+* **Frontend:** React, Vite
+
+* **Styling:** Tailwind CSS
+
+* **UI Components:** Headless UI
+
+* **Icons:** Heroicons
+
+* **State Management:** React's `useState` hook
+
+-----
+
+## 💻 Getting Started
+
+To get a copy of this project up and running on your local machine, follow these steps.
+
+### ⚙️ Installation
+
+1. **Clone the repository** and navigate to the project directory:
+
+```
+git clone https://github.com/KamilWo/step8up-week9-react-portfolio
+cd step8up-week9-react-portfolio
 ```
 
-You can also
-install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x)
-and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom)
-for React-specific lint rules:
+2. **Install dependencies:**
 
-```js
-// eslint.config.mjs
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-    globalIgnores(['dist']),
-    {
-        files: ['**/*.{ts,tsx}'],
-        extends: [
-            // Other configs...
-            // Enable lint rules for React
-            reactX.configs['recommended-typescript'],
-            // Enable lint rules for React DOM
-            reactDom.configs.recommended,
-        ],
-        languageOptions: {
-            parserOptions: {
-                project: ['./tsconfig.node.json', './tsconfig.app.json'],
-                tsconfigRootDir: import.meta.dirname,
-            },
-            // other options...
-        },
-    },
-])
 ```
+npm install
+```
+
+3. **Run the application locally:**
+
+```
+npm run dev
+```
+
+4. **View the application:**
+   Open your web browser and navigate to `http://localhost:5173`.
+
+-----
+
+## ☁️ Deployment
+
+This project is a static React application and can be easily deployed on a variety of platforms. The recommended
+services for deployment are **Vercel** or **Netlify**. Both offer simple setup for static sites and are free for
+personal projects.
+
+-----
+
+## 📚 Resources
+
+* [React Documentation](https://www.google.com/search?q=https://reactjs.org/docs/getting-started.html)
+
+* [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+
+* [Headless UI Documentation](https://headlessui.com/)
+
+* [Heroicons](https://heroicons.com/)
+
+* [Vite Documentation](https://vitejs.dev/)
