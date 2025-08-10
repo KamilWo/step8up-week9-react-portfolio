@@ -1,10 +1,14 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import '../index.css'
 import '../App.css';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import '../styles/CustomSwiper.css';
 
 export const metadata = {
   title: 'React portfolio - Kamil Wozniak',

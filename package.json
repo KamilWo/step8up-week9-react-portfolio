@@ -4,7 +4,11 @@
   "version": "0.1.0",
   "description": "A modern, responsive portfolio built with React to showcase projects, skills, and experience. Features interactive UI components, smooth navigation, and easy customization.",
   "type": "module",
-  "browserslist": [">0.3%", "not dead", "not op_mini all"],
+  "browserslist": [
+    ">0.3%",
+    "not dead",
+    "not op_mini all"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -31,12 +35,12 @@
     "react-dom": "^19.1.1",
     "react-hot-toast": "^2.5.2",
     "react-masonry-css": "^1.0.16",
-    "react-slick": "^0.31.0",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "rimraf": "^6.0.1",
     "slick-carousel": "^1.8.1",
     "styled-components": "^6.1.19",
+    "swiper": "^11.2.10",
     "tailwindcss": "^3.4.17",
     "uuid": "^11.1.0"
   },
