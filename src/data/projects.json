@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title": "HTML Challenge Extra",
+    "description": "Step8Up Week 1 Challenge: First HTML website.",
+    "imageUrl": "/images/projects/project1.png",
+    "category": "web-dev",
+    "url": "https://kamilwo.github.io/step8up-week1-challenge-extra/",
+    "githubUrl": "https://github.com/KamilWo/step8up-week1-challenge-extra"
+  },
+  {
+    "id": 2,
+    "title": "HTML Responsive website",
+    "description": "Step8Up Week 2 Challenge: HTML responsive website.",
+    "imageUrl": "/images/projects/project2.png",
+    "category": "web-dev",
+    "url": "https://kamilwo.github.io/step8up-week2-website/",
+    "githubUrl": "https://github.com/KamilWo/step8up-week2-website"
+  },
+  {
+    "id": 3,
+    "title": "Boostrap and jQuery",
+    "description": "Step8Up Week 3 Challenge: Boostrap and jQuery.",
+    "imageUrl": "/images/projects/project3.png",
+    "category": "web-dev",
+    "url": "https://kamilwo.github.io/step8up-week3-website/",
+    "githubUrl": "https://github.com/KamilWo/step8up-week3-website"
+  },
+  {
+    "id": 4,
+    "title": "TODO List",
+    "description": "Step8Up Week 4 Challenge: Creating TODO list.",
+    "imageUrl": "/images/projects/project4.png",
+    "category": "web-dev",
+    "url": "https://kamilwo.github.io/step8up-week4-todo-list/",
+    "githubUrl": "https://github.com/KamilWo/step8up-week4-todo-list"
+  },
+  {
+    "id": 5,
+    "title": "Weather App Challenge",
+    "description": "Step8Up Week 5 Challenge: OpenWeatherApi weather app.",
+    "imageUrl": "/images/projects/project5.png",
+    "category": "web-dev",
+    "url": "https://kamilwo.github.io/step8up-week5-weather-app/",
+    "githubUrl": "https://github.com/KamilWo/step8up-week5-weather-app"
+  },
+  {
+    "id": 6,
+    "title": "Readme.md file generator",
+    "description": "Step8Up Week 6 Challenge: Python Readme.md file generator.",
+    "imageUrl": "/images/projects/project6.png",
+    "category": "web-dev",
+    "url": "https://www.youtube.com/watch?v=kspucmBjIOs",
+    "githubUrl": "https://github.com/KamilWo/step8up-week6-readme-generator"
+  },
+  {
+    "id": 7,
+    "title": "Node.js Express Notes",
+    "description": "Step8Up Week 7 Challenge: Node.js Express Notes taking app.",
+    "imageUrl": "/images/projects/project7.png",
+    "category": "full-stack",
+    "url": "https://step8up-week7-node-express-notes.onrender.com/",
+    "githubUrl": "https://github.com/KamilWo/step8up-week7-node-express-notes"
+  },
+  {
+    "id": 8,
+    "title": "Node.js Express Blog",
+    "description": "Step8Up Week 8 Challenge: Node.js Express Blog on Render.com.",
+    "imageUrl": "/images/projects/project8.png",
+    "category": "full-stack",
+    "url": "https://step8up-week8-node-express-blog.onrender.com/",
+    "githubUrl": "https://github.com/KamilWo/step8up-week8-node-express-blog"
+  },
+  {
+    "id": 9,
+    "title": "React portfolio",
+    "description": "Step8Up Week 9 Challenge: React Portfolio website on Vercel.app.",
+    "imageUrl": "/images/projects/project9.png",
+    "category": "full-stack",
+    "url": "https://step8up-week9-react-portfolio.vercel.app/",
+    "githubUrl": "https://github.com/KamilWo/step8up-week9-react-portfolio"
+  }
+]
