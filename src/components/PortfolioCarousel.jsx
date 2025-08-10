@@ -1,48 +1,48 @@
 import React from 'react';
-import Slider from 'react-slick';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import ProjectCard from './ProjectCard';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import projects from '../data/projects.json';
 
 const PortfolioCarousel = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
-
   return (
-    <div className="py-12 bg-gray-100">
+    <div className="py-12 bg-gray-600">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-10">My Step8Up Projects Gallery</h2>
-        <Slider {...settings}>
+        <Swiper
+          modules={[Autoplay, Pagination, Navigation]}
+          loop={true}
+          speed={500}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          spaceBetween={30}
+          slidesPerView={1}
+          breakpoints={{
+            768: {
+              slidesPerView: 2,
+              slidesPerGroup: 1,
+            },
+            1024: {
+              slidesPerView: 3,
+              slidesPerGroup: 1,
+            },
+          }}
+          className="mySwiper pb-12"
+        >
           {projects.map((project) => (
-            <div key={project.id} className="p-4">
-              <ProjectCard project={project}/>
-            </div>
+            <SwiperSlide key={project.id}>
+              <div className="p-4 h-full">
+                <ProjectCard project={project} />
+              </div>
+            </SwiperSlide>
           ))}
-        </Slider>
+        </Swiper>
       </div>
     </div>
   );

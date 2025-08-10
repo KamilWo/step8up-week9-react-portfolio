@@ -8,35 +8,35 @@
 @layer base {
   @font-face {
     font-family: 'lato-black';
-    src: url(/public/fonts/Lato/Lato-Black.ttf);
+    src: url(/fonts/Lato/Lato-Black.ttf);
   }
   @font-face {
     font-family: 'lato-blackitalic';
-    src: url(/public/fonts/Lato/Lato-BlackItalic.ttf);
+    src: url(/fonts/Lato/Lato-BlackItalic.ttf);
   }
   @font-face {
     font-family: 'lato-bold';
-    src: url(/public/fonts/Lato/Lato-Bold.ttf);
+    src: url(/fonts/Lato/Lato-Bold.ttf);
   }
   @font-face {
     font-family: 'lato-bolditalic';
-    src: url(/public/fonts/Lato/Lato-BoldItalic.ttf);
+    src: url(/fonts/Lato/Lato-BoldItalic.ttf);
   }
   @font-face {
     font-family: 'lato-light';
-    src: url(/public/fonts/Lato/Lato-Light.ttf);
+    src: url(/fonts/Lato/Lato-Light.ttf);
   }
   @font-face {
     font-family: 'lato-regular';
-    src: url(/public/fonts/Lato/Lato-Regular.ttf);
+    src: url(/fonts/Lato/Lato-Regular.ttf);
   }
   @font-face {
     font-family: 'lato-thin';
-    src: url(/public/fonts/Lato/Lato-Thin.ttf);
+    src: url(/fonts/Lato/Lato-Thin.ttf);
   }
   @font-face {
     font-family: 'lato-thinitalic';
-    src: url(/public/fonts/Lato/Lato-ThinItalic.ttf);
+    src: url(/fonts/Lato/Lato-ThinItalic.ttf);
   }
 }
 
