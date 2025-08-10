@@ -19,8 +19,8 @@ your work to life. Once complete, deploy your portfolio to [Render](https://rend
 
 ## User Story
 
-**As a developer**,  
-**I want** to create a visually appealing and interactive portfolio,  
+**As a developer**,
+**I want** to create a visually appealing and interactive portfolio,
 **so that** I can showcase my skills and projects effectively to potential employers or collaborators.
 
 ## Acceptance Criteria
@@ -51,7 +51,7 @@ Portfolio is continuously up to date.
 ## Helpful Resources
 
 - **React Documentation**: [React Docs](https://reactjs.org/docs/getting-started.html)
-- **Responsive Design with CSS**: 
+- **Responsive Design with CSS**:
   [MDN - Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
 - **Deploying React on Render**: [Render Docs - Deploying React Apps](https://render.com/docs/deploy-create-react-app)
 
