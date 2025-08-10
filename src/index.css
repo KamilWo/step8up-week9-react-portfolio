@@ -1,70 +1,68 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*
+  Fonts
+*/
+@layer base {
+  @font-face {
+    font-family: 'lato-black';
+    src: url(/public/fonts/Lato/Lato-Black.ttf);
+  }
+  @font-face {
+    font-family: 'lato-blackitalic';
+    src: url(/public/fonts/Lato/Lato-BlackItalic.ttf);
+  }
+  @font-face {
+    font-family: 'lato-bold';
+    src: url(/public/fonts/Lato/Lato-Bold.ttf);
+  }
+  @font-face {
+    font-family: 'lato-bolditalic';
+    src: url(/public/fonts/Lato/Lato-BoldItalic.ttf);
+  }
+  @font-face {
+    font-family: 'lato-light';
+    src: url(/public/fonts/Lato/Lato-Light.ttf);
+  }
+  @font-face {
+    font-family: 'lato-regular';
+    src: url(/public/fonts/Lato/Lato-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'lato-thin';
+    src: url(/public/fonts/Lato/Lato-Thin.ttf);
+  }
+  @font-face {
+    font-family: 'lato-thinitalic';
+    src: url(/public/fonts/Lato/Lato-ThinItalic.ttf);
+  }
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+/*
+  Global Styles
+*/
+html, body, #root {
+  @apply h-full;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  @apply bg-primary-dark text-text-light font-lato-regular;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold text-text-light;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.card {
+  @apply bg-secondary-dark rounded-xl shadow-lg transition-transform duration-300 hover:scale-105 overflow-hidden;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.button-primary {
+  @apply bg-accent-cyan text-primary-dark font-semibold py-3 px-8 rounded-full transition-colors duration-300 hover:bg-cyan-500;
+}
+
+.button-outline {
+  @apply border-2 border-accent-cyan text-accent-cyan font-semibold py-3 px-8 rounded-full transition-colors duration-300 hover:bg-accent-cyan hover:text-primary-dark;
 }
