@@ -1,30 +1,12 @@
 [
   {
     "id": 1,
-    "title": "HTML Challenge Extra",
-    "description": "Step8Up Week 1 Challenge: First HTML website.",
+    "title": "Taste Trivia",
+    "description": "Final Challenge and group project at the end of the bootcamp",
     "imageUrl": "/images/projects/project1.png",
-    "category": "web-dev",
-    "url": "https://kamilwo.github.io/step8up-week1-challenge-extra/",
-    "githubUrl": "https://github.com/KamilWo/step8up-week1-challenge-extra"
-  },
-  {
-    "id": 2,
-    "title": "HTML Responsive website",
-    "description": "Step8Up Week 2 Challenge: HTML responsive website.",
-    "imageUrl": "/images/projects/project2.png",
-    "category": "web-dev",
-    "url": "https://kamilwo.github.io/step8up-week2-website/",
-    "githubUrl": "https://github.com/KamilWo/step8up-week2-website"
-  },
-  {
-    "id": 3,
-    "title": "Boostrap and jQuery",
-    "description": "Step8Up Week 3 Challenge: Boostrap and jQuery.",
-    "imageUrl": "/images/projects/project3.png",
-    "category": "web-dev",
-    "url": "https://kamilwo.github.io/step8up-week3-website/",
-    "githubUrl": "https://github.com/KamilWo/step8up-week3-website"
+    "category": "full-stack",
+    "url": "https://step8up-final-quiz-for-foodies.onrender.com/",
+    "githubUrl": "https://github.com/KamilWo/step8up-final-quiz-for-foodies"
   },
   {
     "id": 4,
@@ -79,5 +61,32 @@
     "category": "full-stack",
     "url": "https://step8up-week9-react-portfolio.vercel.app/",
     "githubUrl": "https://github.com/KamilWo/step8up-week9-react-portfolio"
+  },
+  {
+    "id": 10,
+    "title": "HTML Challenge Extra",
+    "description": "Step8Up Week 1 Challenge: First HTML website.",
+    "imageUrl": "/images/projects/project10.png",
+    "category": "web-dev",
+    "url": "https://kamilwo.github.io/step8up-week1-challenge-extra/",
+    "githubUrl": "https://github.com/KamilWo/step8up-week1-challenge-extra"
+  },
+  {
+    "id": 11,
+    "title": "HTML Responsive website",
+    "description": "Step8Up Week 2 Challenge: HTML responsive website.",
+    "imageUrl": "/images/projects/project11.png",
+    "category": "web-dev",
+    "url": "https://kamilwo.github.io/step8up-week2-website/",
+    "githubUrl": "https://github.com/KamilWo/step8up-week2-website"
+  },
+  {
+    "id": 12,
+    "title": "Boostrap and jQuery",
+    "description": "Step8Up Week 3 Challenge: Boostrap and jQuery.",
+    "imageUrl": "/images/projects/project12.png",
+    "category": "web-dev",
+    "url": "https://kamilwo.github.io/step8up-week3-website/",
+    "githubUrl": "https://github.com/KamilWo/step8up-week3-website"
   }
 ]
